@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko"> <!--언어는 한국어로-->
+<head>
+
+    <meta charset="UTF-8"> <!--여러 언어를 사용 할 수 있도록 'UTF-8'을 사용-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--'device-width'는 사용자가 사용하는 장비에 폭을 맞추겠다는 의미, 'scale=1.0'은 100%의 배율을 뜻함-->
+
+    <title>멋쟁이사자처럼:)</title> <!--사이트 이름-->
+
+    <link rel="stylesheet" href="./tutorial.css"> <!--html과 css를 연결-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> <!--techit에서 주신 링크-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--이하 구글 Noto Sans 폰트-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="멋쟁이사자처럼:)">
+    <meta property="og:discription" content="멋쟁이사자처럼과 즐거운 코딩!">
+    <meta property="og:image" content="./header.jpg">
+
+</head>
+
+<body>
+    
+    <nav> <!--네비게이션-->
+        <div class="container">
+            <h1 class="nav-logo"><a href="./index.html"><i class="fas fa-star"></i>Layout</a></h1> <!-- href="./index.html" : 클릭하면 자신의 페이지 나오도록, <i class="fas fa-star"></i> : 별 그림-->
+            <div class="nav-menu">
+                <ul class="nav-btn">
+                    <li><a href="./index.html">홈</a></li> <!--클릭하면 자기 자신 페이지 나오도록-->
+                    <li><a href="#">소개</a></li> <!--클릭하면 링크가 연결되긴 하나 딱히 연결할 링크가 없을 때 #을 사용-->
+                    <li><a href="https://techit.education/" target="_blank">Techit</a></li> <!--Techit 사이트로 연결, target="_blank" : 원래 페이지 유지 및 연걸한 페이지 생성-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hd">
+
+        <div class="container">
+            <h2 class="hd-title">POSSIBILITY TO REALITY!</h2>
+            <p class="hd-content">여러분을 응원합니다 :)</p>
+        </div>
+
+    </header>
+
+    <section class="sec">
+
+        <div class="container">
+
+                <article class="art"> <!--이미지-->
+                    <div class="card-img">
+                        <img src="./atc_1.jpg" alt="이미지1">
+                    </div>
+                    <p>이미지1</p>
+                </article>
+                <article class="art"> <!--이미지-->
+                    <div class="card-img">
+                        <img src="./atc_2.jpg" alt="이미지2">
+                    </div>
+                    <p>이미지2</p>
+                </article>
+                <article class="art"> <!--이미지-->
+                    <div class="card-img">
+                        <img src="./atc_3.jpg" alt="이미지3">
+                    </div>
+                    <p>이미지3</p>
+                </article>
+
+        </div>
+
+    </section>
+
+    <footer class="ft">
+        <div class="container">
+            <p>&copy; 2023 LIKELION. ALL rights reserved.</p> <!--스페셜 캐릭터인 &copy를 사용-->
+        </div>
+    </footer>
+
+</body>
+
+</html>
