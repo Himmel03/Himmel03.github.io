@@ -1,6 +1,13 @@
 # Himmel03.github.io
 
+
+웹스크립트프로그래밍 02분반
+
+AI융합학과 20232536 김민정
+
+
 홈페이지 주소 : Himmel03.github.io/MJ_Profile.html
+
 
 1. 헤드
    
